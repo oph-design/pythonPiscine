@@ -1,0 +1,27 @@
+
+export PATH=$HOME/.brew/bin:$PATH
+
+alias cclean='bash ~/Cleaner_42.sh'
+alias cclass=/Users/oheinzel/Documents/cpp/createClass.sh
+alias francinette=/Users/oheinzel/francinette/tester.sh
+alias paco=/Users/oheinzel/francinette/tester.sh
+
+alias gti=git
+alias maek=make
+alias mkae=make
+alias amke=make
+alias amek=make
+alias camao=make
+
+export DOCKER=linux
+alias dbuild="docker build -t $DOCKER ~/docker/ && docker run --name $DOCKER -it -v ~/Documents:/host/ $DOCKER zsh"
+alias dclean="docker rm $DOCKER && docker rmi $DOCKER"
+alias dopen="open -a Docker"
+alias dstart="docker start $DOCKER"
+alias drun="docker exec -it $DOCKER /bin/zsh"
+alias dkill="docker kill $DOCKER"
+alias dlink="~/setup.sh"
+alias .="cd ~/Documents/transcendence/"
+
+alias nvim="~/nvim-macos/bin/nvim"
+alias clang-format="/Users/oheinzel/.local/share/nvim/mason/bin/clang-format"
