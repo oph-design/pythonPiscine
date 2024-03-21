@@ -1,8 +1,5 @@
 <a name="readme-top"></a>
 
-
-
-
 <h1 align="center">pythonPiscine</h1>
 <p align="center">
 	<img alt="GitHub code size in bytes" src="https://img.shields.io/github/languages/code-size/oph-design/pythonPiscine?color=lightblue" />
